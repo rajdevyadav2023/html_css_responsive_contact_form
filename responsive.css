@@ -1,0 +1,44 @@
+@media screen and (max-width: 700px) {
+    .contact-form {
+        background: linear-gradient(rgba(0, 0, 0, 0.564), rgba(0, 0, 0, 0.5)), url('./img/mobile.jpg');
+        height: 120vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .form {
+        overflow-y: auto;
+        background-color: #00000028;
+        width: 80%;
+        padding: .5rem 1rem;
+        border-radius: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: 0px 0px 10px gray, 0px 0px 15px gray;
+    }
+    .form-control {
+        margin: .5rem 0;
+        padding: .5rem;
+    }
+   
+}
+
+@media (min-width: 701px) and (max-width: 1050px) {
+    .form {
+        overflow-y: auto;
+        background-color: #00000028;
+        width: 80%;
+        padding: .5rem 1rem;
+        border-radius: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: 0px 0px 10px gray, 0px 0px 15px gray;
+    }
+}
